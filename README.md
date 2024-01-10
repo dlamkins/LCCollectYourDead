@@ -1,6 +1,6 @@
 # Collect Your Dead
 
-Bodies are automatically collected when teleported back to the ship.
+[Supports v45+] Bodies are automatically collected when teleported back to the ship.  Supports v45, v47, v48, and v49!
 
 ---
 
