@@ -10,7 +10,7 @@ namespace LCCollectYourDead.Patches {
         static void CashEmIn(ShipTeleporter __instance) {
             PlayerControllerB beamedUpPlayer = StartOfRound.Instance.mapScreen.targetedPlayer;
 
-            if (beamedUpPlayer.deadBody != null) {
+            if (beamedUpPlayer?.deadBody != null) {
                 var scrapBody = beamedUpPlayer.deadBody.grabBodyObject;
 
                 if (scrapBody != null) {
