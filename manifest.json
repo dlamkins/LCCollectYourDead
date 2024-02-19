@@ -1,6 +1,6 @@
 {
   "name": "CollectYourDead",
-  "version_number": "1.0.1",
+  "version_number": "1.0.2",
   "website_url": "https://github.com/dlamkins/LCCollectYourDead",
   "description": "Bodies are automatically collected when teleported back to the ship.  Tested to support v45, v47, v48, and v49!",
   "dependencies": []
