@@ -15,6 +15,7 @@ namespace LCCollectYourDead.Patches {
 
                 if (scrapBody != null) {
                     RoundManager.Instance.CollectNewScrapForThisRound(scrapBody);
+                    scrapBody.isInShipRoom = true;
                 }
             }
         }
